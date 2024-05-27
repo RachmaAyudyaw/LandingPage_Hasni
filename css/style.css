@@ -272,7 +272,40 @@ footer img{
     border: none;
 }
 
+/* Responsive */
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #program .card-program{
+        gap: 2rem;
+    }
+
+    #berita .card-berita .img-berita img{
+        width: 100%;
+    }
+    
+    #video iframe{
+        width: 100%;
+        margin-bottom:1rem;
+    }
+
+    footer .flex{
+        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    #sambutan .flex{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #sambutan .flex .kiri{
+        align-items: center;
+    }
+}
+
+/* medium devices (tablets, 768px and up) */
 @media (max-width: 768px){
     #program .card-program{
         gap: 2rem;
@@ -302,3 +335,6 @@ footer img{
         align-items: center;
     }
 }
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
