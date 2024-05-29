@@ -86,6 +86,7 @@ p{
     color: var(--c-hitam);
 }
 
+
 /* sambutan */
 #sambutan{
     padding:50px 0;
@@ -275,7 +276,7 @@ footer img{
 /* Responsive */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     #program .card-program{
         gap: 2rem;
     }
@@ -289,11 +290,11 @@ footer img{
         margin-bottom:1rem;
     }
 
-    footer .flex{
+    /* footer .flex{
         flex-direction: column;
         gap: 2rem;
         flex-wrap: wrap;
-    }
+    } */
 
     #sambutan .flex{
         flex-direction: column;
