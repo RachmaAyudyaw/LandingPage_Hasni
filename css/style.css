@@ -86,6 +86,19 @@ p{
     color: var(--c-hitam);
 }
 
+#about ol{
+    list-style: none;
+}
+
+#about ol li p{
+    font-size:1.25rem;
+    color:#727272;
+    font-weight: 500;
+}
+
+#about a{
+    list-style: none;
+}
 
 /* sambutan */
 #sambutan{
