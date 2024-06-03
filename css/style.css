@@ -129,9 +129,10 @@ p{
     padding:30px 0;
 }
 
-#struktur h3{
-    
+#struktur img{
+    width:787px;
 }
+
 /* sambutan */
 #sambutan{
     padding:50px 0;
@@ -348,6 +349,10 @@ footer img{
 
     #sambutan .flex .kiri{
         align-items: center;
+    }
+
+    #struktur img{
+        width: 374px;
     }
 }
 
