@@ -79,7 +79,7 @@ p{
 
 /* about */
 #about{
-    padding:50px 0;
+    padding:30px 0;
 }
 
 #about .judul{
@@ -100,6 +100,38 @@ p{
     list-style: none;
 }
 
+/* visimisi */
+#visimisi{
+    padding:30px 0;
+}
+
+#visimisi h3{
+    background-color:antiquewhite;
+    padding:10px 5px;
+}
+
+/* sejarah */
+#sejarah{
+    padding:30px 0;
+}
+
+#sejarah h3{
+    background-color:antiquewhite;
+    padding:10px 5px;
+}
+
+#sejarah p{
+    font-size: 16px;
+}
+
+/* struktur */
+#struktur{
+    padding:30px 0;
+}
+
+#struktur h3{
+    
+}
 /* sambutan */
 #sambutan{
     padding:50px 0;
